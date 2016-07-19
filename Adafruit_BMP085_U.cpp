@@ -14,22 +14,22 @@
   Written by Kevin Townsend for Adafruit Industries.  
   BSD license, all text above must be included in any redistribution
  ***************************************************************************/
-#if ARDUINO >= 100
-#include "Arduino.h"
-#else
-
-#include "WProgram.h"
-
-#endif
-
-#ifdef __AVR_ATtiny85__
-#include "TinyWireM.h"
-#define Wire TinyWireM
-#else
-
-#include <Wire.h>
-
-#endif
+//#if ARDUINO >= 100
+//#include "Arduino.h"
+//#else
+//
+//#include "WProgram.h"
+//
+//#endif
+//
+//#ifdef __AVR_ATtiny85__
+//#include "TinyWireM.h"
+//#define Wire TinyWireM
+//#else
+//
+//#include <Wire.h>
+//
+//#endif
 
 #include <math.h>
 #include <limits.h>
